@@ -1,0 +1,1 @@
+This bug occurs when using the `FlatList` component in React Native with a large dataset.  The issue is that the `renderItem` function is called excessively, leading to performance problems and potentially crashes. This can happen if the `keyExtractor` prop isn't properly set or if there are issues with data updates causing unnecessary re-renders.
